@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  useEmulators: true,
   firebase: {
     projectId: 'ngnuggetsdotcom-firebase',
     appId: '1:800241353749:web:a65417880184b792977a1c',
