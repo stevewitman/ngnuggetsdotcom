@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-add-post-page',
   templateUrl: './add-post-page.component.html',
-  styleUrls: ['./add-post-page.component.scss']
+  styleUrls: ['./add-post-page.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AddPostPageComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
