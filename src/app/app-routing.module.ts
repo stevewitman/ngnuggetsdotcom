@@ -14,6 +14,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./feat/admin/admin.module').then((m) => m.AdminModule),
   },
+  {
+    path: '**',
+    loadChildren: () =>
+      import('./feat/page-not-found/page-not-found.module').then((m) => m.PageNotFoundModule),
+  },
 ];
 
 @NgModule({
