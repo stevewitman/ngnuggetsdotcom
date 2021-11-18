@@ -1,4 +1,6 @@
 export const environment = {
+  production: true,
+  useEmulators: false,
   firebase: {
     projectId: 'ngnuggetsdotcom-firebase',
     appId: '1:800241353749:web:a65417880184b792977a1c',
@@ -7,6 +9,5 @@ export const environment = {
     authDomain: 'ngnuggetsdotcom-firebase.firebaseapp.com',
     messagingSenderId: '800241353749',
     measurementId: 'G-L97Z1NBNQJ',
-  },
-  production: true
+  }
 };
